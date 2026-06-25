@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Lato:wght@300;400;700&display=swap');
+@import "tailwindcss";
+@source "../../../../packages/core/src";
+@import "@core/web/styles";
+
+/* ═══════════════════════════════════════════════════════════════
+   medspa · theme=slate (violet/premium)
+   ═══════════════════════════════════════════════════════════════ */
+:root {
+  --font-display: 'Cormorant Garamond', serif;
+  --font-body:    'Lato', sans-serif;
+}
+.loading-screen { background: var(--brand-bg); }
+.loading-screen .aurora-blob { background: var(--brand-blob-1); }
